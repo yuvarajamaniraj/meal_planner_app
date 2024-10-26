@@ -1,6 +1,6 @@
-# Creating a Next.js App
+# Creating a Next.js App on Windows
 
-This guide will walk you through the process of creating a new Next.js application.
+This guide will walk you through the process of creating a new Next.js application on a Windows system.
 
 ## Prerequisites
 
@@ -9,19 +9,22 @@ This guide will walk you through the process of creating a new Next.js applicati
 
 ## Steps to Create a Next.js App
 
-1. Open your terminal or command prompt.
+1. Open Command Prompt or PowerShell.
 
-2. Navigate to the directory where you want to create your new Next.js app.
+2. Navigate to the directory where you want to create your new Next.js app using the `cd` command. For example:
+   ```
+   cd C:\Projects
+   ```
 
 3. Run one of the following commands, depending on your package manager:
 
    Using npm:
-   ```bash
+   ```
    npx create-next-app@latest
    ```
 
    Using Yarn:
-   ```bash
+   ```
    yarn create next-app
    ```
 
@@ -32,7 +35,7 @@ This guide will walk you through the process of creating a new Next.js applicati
    - Would you like to use TypeScript? (Yes/No)
    - Would you like to use ESLint? (Yes/No)
    - Would you like to use Tailwind CSS? (Yes/No)
-   - Would you like to use `src/` directory? (Yes/No)
+   - Would you like to use `src\` directory? (Yes/No)
    - Would you like to use App Router? (Yes/No)
    - Would you like to customize the default import alias? (Yes/No)
 
@@ -42,19 +45,19 @@ This guide will walk you through the process of creating a new Next.js applicati
 
 7. After the installation is complete, navigate into your new project directory:
 
-   ```bash
+   ```
    cd your-app-name
    ```
 
 8. Start the development server:
 
    Using npm:
-   ```bash
+   ```
    npm run dev
    ```
 
    Using Yarn:
-   ```bash
+   ```
    yarn dev
    ```
 
@@ -66,4 +69,4 @@ This guide will walk you through the process of creating a new Next.js applicati
 - Start building your components in the `pages` or `app` directory (depending on your router choice)
 - Refer to the [Next.js documentation](https://nextjs.org/docs) for more advanced features and configurations
 
-Happy coding with Next.js!
+Happy coding with Next.js on Windows!
