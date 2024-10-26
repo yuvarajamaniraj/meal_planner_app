@@ -230,9 +230,9 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/page.tsx": {
+    "(app-client)/./app/ClientPage.tsx": {
       "*": {
-        "id": "(sc_client)/./app/page.tsx",
+        "id": "(sc_client)/./app/ClientPage.tsx",
         "name": "*",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -240,7 +240,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/page.tsx",
+        "id": "(sc_client)/./app/ClientPage.tsx",
         "name": "",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -248,7 +248,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/page.tsx",
+        "id": "(sc_client)/./app/ClientPage.tsx",
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
@@ -338,6 +338,32 @@ self.__RSC_MANIFEST={
         "name": "defaultHead",
         "chunks": [
           "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/SessionProvider.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/SessionProvider.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/SessionProvider.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "SessionProvider": {
+        "id": "(sc_client)/./components/SessionProvider.tsx",
+        "name": "SessionProvider",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -1022,24 +1048,24 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\Users\\YM\\Documents\\Git_Files\\Projects\\meal_planner_app\\app\\page.tsx": {
-      "id": "(app-client)/./app/page.tsx",
+    "C:\\Users\\YM\\Documents\\Git_Files\\Projects\\meal_planner_app\\app\\ClientPage.tsx": {
+      "id": "(app-client)/./app/ClientPage.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\YM\\Documents\\Git_Files\\Projects\\meal_planner_app\\app\\page.tsx#": {
-      "id": "(app-client)/./app/page.tsx",
+    "C:\\Users\\YM\\Documents\\Git_Files\\Projects\\meal_planner_app\\app\\ClientPage.tsx#": {
+      "id": "(app-client)/./app/ClientPage.tsx",
       "name": "",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "C:\\Users\\YM\\Documents\\Git_Files\\Projects\\meal_planner_app\\app\\page.tsx#default": {
-      "id": "(app-client)/./app/page.tsx",
+    "C:\\Users\\YM\\Documents\\Git_Files\\Projects\\meal_planner_app\\app\\ClientPage.tsx#default": {
+      "id": "(app-client)/./app/ClientPage.tsx",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -1195,6 +1221,30 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/layout.css"
       ]
+    },
+    "C:\\Users\\YM\\Documents\\Git_Files\\Projects\\meal_planner_app\\components\\SessionProvider.tsx": {
+      "id": "(app-client)/./components/SessionProvider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\YM\\Documents\\Git_Files\\Projects\\meal_planner_app\\components\\SessionProvider.tsx#": {
+      "id": "(app-client)/./components/SessionProvider.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\YM\\Documents\\Git_Files\\Projects\\meal_planner_app\\components\\SessionProvider.tsx#SessionProvider": {
+      "id": "(app-client)/./components/SessionProvider.tsx",
+      "name": "SessionProvider",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
     }
   }
 }
