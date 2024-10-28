@@ -1,12 +1,19 @@
 import '../styles/globals.css'
-import { Inter } from 'next/font/google'
+import type { Metadata } from 'next'
+import { Quicksand } from 'next/font/google'
+import { ThemeProvider } from '../context/ThemeContext'
 import { SessionProvider } from '../components/SessionProvider'
 
-const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Login Page',
-  description: 'A simple login page with dark mode and Google OAuth',
+const quicksand = Quicksand({ 
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  display: 'swap',
+})
+
+export const metadata: Metadata = {
+  title: 'Meal Planner App',
+  description: 'Plan your meals efficiently',
 }
 
 export default function RootLayout({
@@ -16,8 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <SessionProvider>{children}</SessionProvider>
+      <body className={quicksand.className}>
+        <SessionProvider>
+          <ThemeProvider>
+            {children}
+          </ThemeProvider>
+        </SessionProvider>
       </body>
     </html>
   )
