@@ -1,16 +1,22 @@
 {
   "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/meal-plan/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+      "static/css/app/meal-plan/page.css",
+      "static/chunks/app/meal-plan/page.js"
     ],
     "/shopping-list/page": [
       "static/chunks/webpack.js",
@@ -23,12 +29,6 @@
       "static/chunks/main-app.js",
       "static/css/app/recipes/page.css",
       "static/chunks/app/recipes/page.js"
-    ],
-    "/meal-plan/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/meal-plan/page.css",
-      "static/chunks/app/meal-plan/page.js"
     ]
   }
 }
